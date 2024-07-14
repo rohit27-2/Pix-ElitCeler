@@ -9,7 +9,7 @@ function Hero() {
         <img
         priority={true} 
           alt="Home Image"
-          src="Hero.jpg"
+          src="https://ultravisionledsolutions.com/cdn/shop/products/STAGERenderingForMarketingPurpose-min-min.png?v=1658158319&width=1024"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </div>
