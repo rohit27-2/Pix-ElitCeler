@@ -17,7 +17,7 @@ function Services() {
             <li>
                 <img
                   priority={true}
-                  src="dis1.jpg"
+                  src="dis3.jpg"
                   alt="Service 1"
                   className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
