@@ -8,18 +8,19 @@ function Hero() {
       <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
           alt=""
-          src="https://i.pinimg.com/564x/a5/0c/cc/a50cccc2ecdde5793090768ec2f07c35.jpg"
+          src="/Hero1.svg"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </div>
 
       <div class="lg:py-24">
-        <h2 class="font-extrabold text-xl md:text-5xl sm:text-xl text-gray-900 sm:text-4xl">Lorem ipsum dolor sit amet,<span class="text-purple-700"
-            >consectetur</span
+        <h2 class="font-extrabold text-xl md:text-5xl sm:text-xl text-gray-900 sm:text-4xl">Transform Your 
+        <span class="text-purple-700"
+            > Events </span
           ><br />
-          adipiscing elit, sed do</h2>
+          with Pixieus</h2>
 
-        <p class="mt-4 text-gray-600">
+        <p class="mt-8 text-gray-600">
         Experience the world of LED's with us. <br />
         Entertainment Redefined.
         </p>
