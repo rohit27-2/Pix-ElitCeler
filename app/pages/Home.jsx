@@ -15,7 +15,7 @@ function Hero() {
 
       <div class="lg:py-24">
         <h2 class="font-extrabold text-xl md:text-5xl sm:text-xl text-gray-900 sm:text-4xl">Lorem ipsum dolor sit amet,<span class="text-purple-700"
-            ><br/>consectetur</span
+            >consectetur</span
           ><br />
           adipiscing elit, sed do</h2>
 
