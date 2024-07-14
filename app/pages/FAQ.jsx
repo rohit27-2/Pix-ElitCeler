@@ -2,15 +2,15 @@ import React from 'react';
 
 function FAQ() {
   return (
-    <section id='faq'>
-      <center className='p-4 mt-10'>
+    <section id='faq' className='p-4 mt-10'>
+      
         <h2 class="font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-l">FA<span class="text-purple-700"
         >Qs</span
         ></h2>
         <div className='mt-7 max-w-screen-md'>
           <div class="space-y-4 ">
             <details class="group rounded-lg border border border-black bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" open>
-              <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
+              <summary class="flex cursor-pointer  justify-between gap-1.5 text-gray-900">
                 <h2 class="font-medium">How does PIXIEUS enhance event experiences?</h2>
 
                 <span class="relative size-5 shrink-0">
@@ -46,7 +46,7 @@ function FAQ() {
                 </span>
               </summary>
 
-              <p class="mt-4 leading-relaxed text-gray-700">
+              <p class="mt-4 leading-relaxed text-gray-700 text-left">
                 With captivating LED Video Walls that create immersive environments.
 
               </p>
@@ -89,7 +89,7 @@ function FAQ() {
                 </span>
               </summary>
 
-              <p class="mt-4 leading-relaxed text-gray-700">
+              <p class="mt-4 leading-relaxed text-gray-700 text-left">
                 Innovative technology, customizable solutions, and dedicated support.
 
               </p>
@@ -133,7 +133,7 @@ function FAQ() {
                 </span>
               </summary>
 
-              <p class="mt-4 leading-relaxed text-gray-700">
+              <p class="mt-4 leading-relaxed text-gray-700 text-left">
                 Various sizes and high-definition resolutions.
 
               </p>
@@ -177,7 +177,7 @@ function FAQ() {
                 </span>
               </summary>
 
-              <p class="mt-4 leading-relaxed text-gray-700">
+              <p class="mt-4 leading-relaxed text-gray-700 text-left">
                 Yes, customizable with videos, graphics, logos, and branding.
 
               </p>
@@ -221,14 +221,14 @@ function FAQ() {
                 </span>
               </summary>
 
-              <p class="mt-4 leading-relaxed text-gray-700">
+              <p class="mt-4 leading-relaxed text-gray-700 text-left">
                 Yes, comprehensive installation and on-site technical support.
               </p>
             </details>
 
           </div>
         </div>
-      </center>
+      
     </section>
   );
 }
