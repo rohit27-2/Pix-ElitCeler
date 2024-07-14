@@ -18,7 +18,7 @@ function Services() {
               <a href="#" className="group block overflow-hidden">
                 <img
                   priority={true}
-                  src="img3.jpg"
+                  src="dis1.jpg"
                   alt="Service 1"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
@@ -32,7 +32,7 @@ function Services() {
               <a href="#" className="group block overflow-hidden">
                 <img
                 priority={true}
-                  src="img1.jpg"
+                  src="dis2.jpg"
                   alt="Service 2"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
@@ -45,7 +45,7 @@ function Services() {
               <a href="#" className="group block overflow-hidden">
                 <img
                 priority={true}
-                  src="img2.jpg"
+                  src="dis3.jpg"
                   alt="Service 3"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
