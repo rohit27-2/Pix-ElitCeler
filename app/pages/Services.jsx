@@ -17,7 +17,7 @@ function Services() {
             <li>
               <a href="#" className="group block overflow-hidden">
                 <img
-                  src="https://i.pinimg.com/564x/a5/0c/cc/a50cccc2ecdde5793090768ec2f07c35.jpg"
+                  src="demo1.png"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
@@ -30,7 +30,7 @@ function Services() {
             <li>
               <a href="#" className="group block overflow-hidden">
                 <img
-                  src="https://i.pinimg.com/564x/a5/0c/cc/a50cccc2ecdde5793090768ec2f07c35.jpg"
+                  src="demo2.png"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
@@ -42,7 +42,7 @@ function Services() {
             <li>
               <a href="#" className="group block overflow-hidden">
                 <img
-                  src="https://i.pinimg.com/564x/a5/0c/cc/a50cccc2ecdde5793090768ec2f07c35.jpg"
+                  src="demo1.png"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />

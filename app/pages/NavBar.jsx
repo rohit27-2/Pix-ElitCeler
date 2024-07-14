@@ -7,13 +7,13 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-950 text-white">
-      <div className="max-w-6xl mx-auto px-2">
+      <div className="max-w-6xl  ">
         <div className="flex justify-between">
           <div className="flex space-x-3">
             {/* Logo or Brand name */}
             <div>
-              <a href="#" className="flex items-center py-5 text-gray-700 hover:text-gray-900">
-                <Image height={20} width={65} src={'/logo-bg.png'} alt="Logo" />
+              <a href="#" className="flex items-center text-gray-700 hover:text-gray-900">
+                <Image height={20} width={55} src={'/logo-bg.png'} alt="Logo" />
                 <h1 className=" text-2xl font-bold text-white">PIXIEUS</h1>
             
           </a>
@@ -21,11 +21,11 @@ const Navbar = () => {
       </div>
 
       {/* Primary Nav */}
-      <div className="hidden mt-4 md:flex space-x-4">
+      <div className="hidden  md:flex space-x-4">
         <a href="/" className="py-5 px-3">Home</a>
         <a href="#about" className="py-5 px-3">About Us</a>
         <a href="#services" className="py-5 px-3">Services</a>
-        <a href="#previous-event" className="py-5 px-3">Previuos Events  </a>
+        <a href="#previous-event" className="py-5 px-3">Previous Events  </a>
         <a href="#faq" className="py-5 px-3">FAQs  </a>
       </div>
 
