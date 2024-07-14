@@ -5,7 +5,7 @@ function Services() {
     <section id='services'>
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <header>
-          <h2 class="font-extrabold text-5xl md:text-5xl text-gray-900 sm:text-4xl"><span class="text-purple-700"
+          <h2 class="font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-4xl"><span class="text-purple-700"
           >S</span>
             ervices
 

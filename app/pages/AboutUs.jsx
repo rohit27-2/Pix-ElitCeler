@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <section id="about" className="p-8 mt-12">
       <div className="flex justify-center">
-      <h2 class="font-extrabold text-5xl md:text-5xl text-gray-900 sm:text-4xl">About<span class="text-purple-700"
+      <h2 class="font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-4xl">About<span class="text-purple-700"
             >Us</span>
          </h2>
       </div>

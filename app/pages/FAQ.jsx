@@ -3,8 +3,8 @@ import React from 'react';
 function FAQ() {
   return (
     <section id='faq'>
-      <center className='p-4'>
-        <h2 class="font-extrabold text-5xl md:text-5xl text-gray-900 sm:text-4xl">FA<span class="text-purple-700"
+      <center className='p-4 mt-10'>
+        <h2 class="font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-l">FA<span class="text-purple-700"
         >Qs</span
         ></h2>
         <div className='mt-7 max-w-screen-md'>
