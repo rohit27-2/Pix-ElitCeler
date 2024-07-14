@@ -25,7 +25,6 @@ const Navbar = () => {
         <a href="/" className="py-5 px-3">Home</a>
         <a href="#about" className="py-5 px-3">About Us</a>
         <a href="#services" className="py-5 px-3">Services</a>
-        <a href="#previous-event" className="py-5 px-3">Previous Events  </a>
         <a href="#faq" className="py-5 px-3">FAQs  </a>
       </div>
 
