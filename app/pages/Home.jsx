@@ -9,7 +9,7 @@ function Hero() {
         <img
         priority={true} 
           alt="Home Image"
-          src="/Hero1.svg"
+          src="Hero.jpg"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </div>
