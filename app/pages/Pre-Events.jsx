@@ -1,9 +1,7 @@
-import React from 'react'
+"use client";
 
-function Gallery() {
-  return (
-    <div>Gallery</div>
-  )
+import { Alert } from "flowbite-react";
+
+export default function MyPage() {
+  return <Alert color="info">Alert!</Alert>;
 }
-
-export default Gallery

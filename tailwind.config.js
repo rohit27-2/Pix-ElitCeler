@@ -1,4 +1,7 @@
-/** @type {import('tailwindcss').Config} */
+{import('tailwindcss').Config} 
+
+import flowbite from "flowbite/plugin";
+// import type { Config } from "tailwindcss";
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -6,6 +9,9 @@ module.exports = {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./public/**/*.html",
+    "./node_modules/flowbite-react/lib/**/*.js",
   ],
   prefix: "",
   theme: {
@@ -73,5 +79,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require('flowbite/plugin')],
 }

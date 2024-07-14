@@ -22,12 +22,11 @@ const Navbar = () => {
 
       {/* Primary Nav */}
       <div className="hidden mt-4 md:flex space-x-4">
-        <a href="#" className="py-5 px-3">Home</a>
-        <a href="#" className="py-5 px-3">About Us</a>
-        <a href="#" className="py-5 px-3">Services</a>
-        <a href="#" className="py-5 px-3">Previuos Events  </a>
-        <a href="#" className="py-5 px-3">FAQs  </a>
-
+        <a href="/" className="py-5 px-3">Home</a>
+        <a href="#about" className="py-5 px-3">About Us</a>
+        <a href="#services" className="py-5 px-3">Services</a>
+        <a href="#previous-event" className="py-5 px-3">Previuos Events  </a>
+        <a href="#faq" className="py-5 px-3">FAQs  </a>
       </div>
 
       {/* Mobile button */}
@@ -41,10 +40,11 @@ const Navbar = () => {
 
   {/* Mobile Menu */ }
   <div div className = {`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">Home</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">Services</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
+        <a href="/" className="block py-2 px-4 text-sm hover:bg-gray-700">Home</a>
+        <a href="#services" className="block py-2 px-4 text-sm hover:bg-gray-700">Services</a>
+        <a href="#about" className="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
+        <a href="#faq" className="block py-2 px-4 text-sm hover:bg-gray-700">FAQ</a>
+        <a href="#footer" className="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
       </div >
     </nav >
   );

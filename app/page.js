@@ -1,5 +1,3 @@
-
-import Image from "next/image";
 import Navbar from "./pages/NavBar";
 import Hero from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -16,7 +14,7 @@ export default function Home() {
         <Hero />
         <AboutUs />
         <Services />
-        {/* <Gallery /> */}
+        <Gallery />
         <FAQ />
         <Footer />
       </div>
