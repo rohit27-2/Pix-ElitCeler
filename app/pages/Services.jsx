@@ -17,8 +17,18 @@ function Services() {
             <li>
                 <img
                   priority={true}
-                  src="dis3.jpg"
+                  src="gallery1.jpg"
                   alt="Service 1"
+                  className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+
+
+            </li>
+            <li>
+                <img
+                  priority={true}
+                  src="gallery2.jpg"
+                  alt="Service 2"
                   className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
@@ -29,8 +39,8 @@ function Services() {
             <li>
                 <img
                 priority={true}
-                  src="dis2.jpg"
-                  alt="Service 2"
+                  src="gallery3.jpg"
+                  alt="Service 3"
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] border rounded-md"
                 />
 
@@ -40,8 +50,28 @@ function Services() {
             <li>
                 <img
                 priority={true}
-                  src="dis4.jpg"
-                  alt="Service 3"
+                  src="galley4.jpg"
+                  alt="Service 4"
+                  className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+
+
+            </li>
+            <li>
+                <img
+                  priority={true}
+                  src="gallery5.jpg"
+                  alt="Service 5"
+                  className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                />
+
+
+            </li>
+            <li>
+                <img
+                  priority={true}
+                  src="gallery6.jpg"
+                  alt="Service 6"
                   className="border rounded-md h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
 
