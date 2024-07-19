@@ -30,7 +30,7 @@ function Hero() {
               <div className="mt-6 flex justify-center gap-4 lg:justify-middle">
                 <a
                   className="text-gray-700 transition hover:text-gray-700/75"
-                  href="https://wa.me/917897892565"
+                  href="https://wa.me/14079171719"
                   target="_blank"
                   rel="noreferrer"
                 >
