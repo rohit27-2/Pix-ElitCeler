@@ -8,7 +8,7 @@ function Footer() {
         <div class="text-gray-700 list-none">
           <ul class="flex-col gap-1 justify-center align-middle">
             <li class="mt-8"><a href="#about">About</a></li>
-            <li class="mt-4"><a href="#">Contact Us</a></li>
+            <li class="mt-4"><a href="#hero">Contact Us</a></li>
             <li class="mt-4"><a href="/">Support</a></li>
           </ul>
         </div>
