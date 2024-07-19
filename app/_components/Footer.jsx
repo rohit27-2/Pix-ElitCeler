@@ -54,18 +54,18 @@ function Footer() {
 
 
           </div>
-          
+
 
         </div>
       </div>
-      <div class="mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
-      <div className=" sm:mt-3 md:mt-8 lg:mt-2">
-            <p className="text-gray-700 p-2 text-sm sm:text-base md:text-sm lg:text-l">
-             Contact: +‪(407) 917-1719‬
-             | Email: pixieus.com@gmail.com
-            </p>
-          </div>
-        <p class="mt-4 text-center text-xs/relaxed text-gray-500 dark:text-gray-400">
+      <div class=" mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
+        <div className=" sm:mt-3 md:mt-8 lg:mt-2">
+          <p className="text-center text-gray-700 p-2 text-sm sm:text-base md:text-sm lg:text-l">
+            Contact: +‪(407) 917-1719‬
+            | Email: pixieus.com@gmail.com
+          </p>
+        </div>
+        <p class="mt-4 text-center  text-xs/relaxed text-gray-500 dark:text-gray-400">
           © Pixieus LLC.
           All rights reserved.
 
