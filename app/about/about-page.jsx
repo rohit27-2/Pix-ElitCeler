@@ -1,13 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-function Services() {
+function Gallery() {
   return (
-    <section id='services'>
+    
+        <section id='Gallery'>
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <header>
-          <h2 class="font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-4xl"><span class="text-purple-700"
-          >S</span>
-            ervices
+          <h2 class="text-center font-extrabold text-3xl md:text-5xl text-gray-900 sm:text-4xl"><span class="text-purple-700"
+          >G</span>
+            allery
 
           </h2>
 
@@ -82,7 +83,8 @@ function Services() {
       </div>
 
     </section >
-  );
+    
+  )
 }
 
-export default Services;
+export default Gallery
