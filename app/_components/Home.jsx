@@ -26,8 +26,12 @@ function Hero() {
               Entertainment Redefined.
             </p>
 
+            <p class="mt-8 text-black font-bold">
+            Enquiry us for more details
+            </p>
+
             <div>
-              <div className="mt-6 flex justify-center gap-4 lg:justify-middle">
+              <div className="mt-3 flex justify-center gap-4 lg:justify-middle">
                 <a
                   className="text-gray-700 transition hover:text-gray-700/75"
                   href="https://wa.me/14079171719"
