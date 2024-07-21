@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Menu, MenuSquareIcon, X } from 'lucide-react';
 import Image from 'next/image'
+import { Link } from 'react-scroll';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,11 +24,11 @@ const Navbar = () => {
 
           {/* Primary Nav */}
           <div className="hidden  md:flex space-x-4">
-            <a href="/" className="py-5 px-3 hover:text-purple-700">Home</a>
-            <a href="#about" className="py-5 px-3 hover:text-purple-700 scroll-smooth">About Us</a>
-            <a href="#services" className="py-5 px-3 hover:text-purple-700">Services</a>
-            <a href="#faq" className="py-5 px-3 hover:text-purple-700">FAQs  </a>
-            <a href="#footer" className="py-5 px-3 hover:text-purple-700">Contact  </a>
+            <Link to="/" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Home</Link>
+            <Link to="about" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700 scroll-smooth">About Us</Link>
+            <Link to="services" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Services</Link>
+            <Link to="faq" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">FAQs</Link>
+            <Link to="footer" smooth duration={500} className="py-5 px-3 cursor-pointer hover:text-purple-700">Contact  </Link>
           </div>
 
           {/* Mobile button */}
