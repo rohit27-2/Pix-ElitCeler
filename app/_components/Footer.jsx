@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer id='footer' class="bg-black p-8 mt-12">
       <div class="flex justify-around">
-        <div class="text-gray-700 list-none">
+        <div class="text-white list-none">
           <ul class="flex-col gap-1 justify-center align-middle">
             <li class="mt-8"><a href="#about">About</a></li>
             <li class="mt-4"><a href="#hero">Contact Us</a></li>
@@ -15,10 +15,10 @@ function Footer() {
         <div class="flex-col">
           <div >
             <Image height={20} width={65} src={'/logo-bg.png'} alt="Logo" />          </div>
-          <p class="text-gray-700">Address</p>
+          <p class="text-white">Address</p>
           <div className="mt-6 flex justify-center gap-4 lg:justify-middle">
             <a
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-white transition hover:text-gray-700/75"
               href="https://www.facebook.com/profile.php?id=61561191597859&mibextid=LQQJ4d"
               target="_blank"
               rel="noreferrer"
@@ -35,7 +35,7 @@ function Footer() {
             </a>
 
             <a
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-white transition hover:text-gray-700/75"
               href="https://www.instagram.com/pixieusofficial?igsh=MXFyeHAxb3pnMXJpMg%3D%3D&utm_source=qr"
               target="_blank"
               rel="noreferrer"
@@ -60,12 +60,12 @@ function Footer() {
       </div>
       <div class=" mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
         <div className=" sm:mt-3 md:mt-8 lg:mt-2">
-          <p className="text-center text-gray-700 p-2 text-sm sm:text-base md:text-sm lg:text-l">
+          <p className="text-center text-white p-2 text-sm sm:text-base md:text-sm lg:text-l">
             Contact: +‪(407) 917-1719‬
             | Email: pixieus.com@gmail.com
           </p>
         </div>
-        <p class="mt-4 text-center  text-xs/relaxed text-gray-500 dark:text-gray-400">
+        <p class="mt-4 text-center  text-xs/relaxed text-white dark:text-gray-400">
           © Pixieus LLC.
           All rights reserved.
 
