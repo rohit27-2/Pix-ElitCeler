@@ -46,7 +46,7 @@ function Hero() {
                 </a>
                 <a
                   className="text-gray-700 transition hover:text-gray-700/75"
-                  href="https://www.facebook.com/profile.php?id=61561191597859&mibextid=LQQJ4d"
+                  href="https://www.facebook.com/p/Pixieus-61561148251309/"
                   target="_blank"
                   rel="noreferrer"
                 >
