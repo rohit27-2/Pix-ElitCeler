@@ -4,13 +4,10 @@ function Gallery() {
   const imageData = [
     { src: "gallery1.jpg", alt: "Service 1" },
     { src: "gallery2.jpg", alt: "Service 2" },
-    { src: "gallery7.jpg", alt: "Service 3" },
-    { src: "galley4.jpg", alt: "Service 4" },
     { src: "gallery5.jpg", alt: "Service 5" },
-    { src: "gallery6.jpg", alt: "Service 6" },
-    { src: "gallery8.jpg", alt: "Service 6" },
-    { src: "gallery9.jpg", alt: "Service 6" },
-    { src: "gallery10.jpg", alt: "Service 6" },
+    { src: "gallery8.jpg", alt: "Service 8" },
+    { src: "gallery9.jpg", alt: "Service 9" },
+    { src: "gallery10.jpg", alt: "Service 10" },
   ];
 
   return (
