@@ -61,7 +61,7 @@ function Footer() {
       <div class=" mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
         <div className=" sm:mt-3 md:mt-8 lg:mt-2">
           <p className="text-center text-white p-2 text-sm sm:text-base md:text-sm lg:text-l">
-            Contact: +‪(407) 917-1719‬
+            Contact: +1 ‪(407) 917-1719‬
             | Email: pixieus.com@gmail.com
           </p>
         </div>
